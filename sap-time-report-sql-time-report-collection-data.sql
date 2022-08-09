@@ -1,11 +1,11 @@
 CREATE TABLE `sap_time_report_time_report_collection_data`
 (
+			`ID`                                     varchar(35) NOT NULL,
 			`ObjectID`                               varchar(70) DEFAULT NULL,
 			`Description`                            varchar(255) DEFAULT NULL,
 			`languageCode`                           varchar(2) DEFAULT NULL,
 			`EmployeeUUID`                           varchar(80) DEFAULT NULL,
 			`EndDate`                  　　　         varchar(80) DEFAULT NULL,
-			`ID`                                     varchar(35) NOT NULL,
 			`InformationLifeCycleStatusCode`         varchar(2) DEFAULT NULL,
 			`RejectionReason`                        varchar(80) DEFAULT NULL,
 			`languageCode1`                          varchar(2) DEFAULT NULL,
