@@ -12,6 +12,7 @@ https://api.sap.com/api/timereport/overview
 sap-time-report-sqlには、sqlの設定ファイルとして以下のsqlファイルが含まれています。　  
 
 * sap-time-report-sql-time-report-collection-data.sql （SAPタイムレポート - タイムレポートデータ）
+* sap-time-report-sql-time-report-party-collection-data.sql （SAPタイムレポート - 関係者データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
